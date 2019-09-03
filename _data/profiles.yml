@@ -1,0 +1,12 @@
+- name: Candice
+  position: Owner
+  description: >-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Curabitur lobortis auctor commodo.Nullam nec nisl.
+  avatar: /assets/img/candice_avatar.png
+- name: Bullet
+  position: Trainee
+  description: >-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Curabitur lobortis auctor commodo.Nullam nec nisl.
+  avatar: /assets/img/bullet_avatar.png

@@ -8768,3 +8768,10 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+.pricing-entry ul li .price {
+    font-weight: 400;
+    /* font-size: 20px; */
+    color: #fa5bdd;
+}
