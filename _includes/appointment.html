@@ -11,7 +11,7 @@
                     </div>
                     <div class="mb-4">
                         <h3 class="mb-3">Phone</h3>
-                        <p class="day"><strong>{{ site.phone }}</strong></p>
+                        <a href="tel:{{ site.phone }}">{{ site.phone }}</a>
                     </div>
                     <div>
                         <h3 class="mb-3">Opening Hours</h3>
@@ -35,7 +35,7 @@
                     <div class="row form-group d-flex">
                         <div class="col-md-6">
                             <div class="input-wrap">
-                                <div class="icon"><span class="ion-md-calendar"></span></div>
+                                <div class="icon"><i class="far fa-calendar-alt"></i></span></div>
                                 <input type="text" name="appointment_date" id="appointment_date" class="form-control" placeholder="Date">
                             </div>
                         </div>
