@@ -1,4 +1,4 @@
-<section id="pricing" class="ftco-section">
+<section id="pricing"  class="ftco-section">
     <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
             <div class="col-md-7 heading-section text-center ftco-animate">
@@ -8,7 +8,30 @@
             </div>
         </div>
         <div class="row">
+            {% for category in site.data.pricelist %}
             <div class="col-md-3 ftco-animate">
+                <div class="pricing-entry pb-5 text-center">
+                    <div>
+                        <h3 class="mb-4">{{ category.title }}</h3>
+                        <!-- <p><span class="price">$24.50</span> <span class="per">/ one trip</span></p> -->
+                    </div>
+                    <ul>
+                        {% for item in category.items %}
+                        <li>{{ item.name }} <span class="price">{{ item.price }}</span>{%- if item.per -%} <span
+                                class="per"> / {{ item.per }}</span>{%- endif -%}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            {% endfor %}
+
+
+
+
+
+
+
+            <!-- <div class="col-md-3 ftco-animate">
                 <div class="pricing-entry pb-5 text-center">
                     <div>
                         <h3 class="mb-4">Acrylic Nails</h3>
@@ -73,7 +96,7 @@
                     <p class="button text-center"><a href="#"
                             class="btn btn-primary btn-outline-primary px-4 py-3">Order now</a></p>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
