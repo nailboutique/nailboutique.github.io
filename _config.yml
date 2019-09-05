@@ -8,7 +8,8 @@ description: Wet Paint Nail Boutique is a beauty salon in Centurion that provide
 url: https://www.nailboutique.co.za
 author: NailBoutique
 
-logo: /assets/img/seo.png
+logo: /assets/img/logo.png
+image: /assets/img/logo.png
 
 twitter: 
   username: NailBoutique
@@ -48,8 +49,9 @@ opening_hours:
     times: 8:00am - 12:00pm
 
 # Social
-facebook: WetPaintNailBoutiqueSA
-instagram: wetpaint_nailboutique
+twitter_username: NailBoutique
+facebook_username: WetPaintNailBoutiqueSA
+instagram_username: wetpaint_nailboutique
 
 # Google
 google_analytics: UA-146448575-2
