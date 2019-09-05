@@ -6,6 +6,8 @@ subtitle: Nail Boutique
 email: info@nailboutique.co.za
 phone: +27 84 500 5552
 address: 67 Aero Road, Valhalla, Centurion, 0185
+address_lattitude: -25.800089
+address_longitude: 28.1542573
 
 # Opening hours
 opening_hours:
@@ -19,8 +21,12 @@ twitter_username: NailBoutique
 facebook_username: WetPaintNailBoutiqueSA
 instagram_username: wetpaint_nailboutique
 
-# Analytics
+# Google
 google_analytics: 
+google_maps: AIzaSyDYkDjfW1eSqydZ79WyvFsZ90FDwGAzZlw
+
+# Jumprock
+jumprock_alias: nailboutique
 
 # Build settings
 # sass:
