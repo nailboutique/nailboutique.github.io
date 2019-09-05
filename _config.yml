@@ -56,6 +56,11 @@ google_map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.105777788
 # Jumprock
 jumprock_alias: nailboutique
 
+# Site stuff
+about_us: >-
+  We specialize in all kinds of nail arts. From free handpainting to 3D flowers and bows.
+  Cash only salon. Bookings must be made ahead of time.
+
 # Build settings
 # sass:
 #   sass_dir: assets/scss

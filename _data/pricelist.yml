@@ -1,86 +1,90 @@
-- title: Acrylic Nails
-  items:
-    - name: French Fade
-      price: R190
-    - name: French
-      price: R170
-    - name: Full Colour
-      price: R170
-    - name: Colour Fade
-      price: R190
-    - name: Glitter Fade
-      price: R190
-    - name: Nude
-      price: R170
-    - name: Toes Full Colour
-      price: R150
-    - name: Toes French
-      price: R160
-    - name: Soak Off
-      price: R60
-    - name: Fillup
-      price: R120
-    - name: Fix
-      price: R20
-    - name: Nail Art
-      price: R5 to R20
-      per: nail
+description: >-
+  Our prices will fit your pocket. Money cant buy you love but it can't
+  buy you a nail appointment.
+lists:
+  - title: Acrylic Nails
+    items:
+      - name: French Fade
+        price: R190
+      - name: French
+        price: R170
+      - name: Full Colour
+        price: R170
+      - name: Colour Fade
+        price: R190
+      - name: Glitter Fade
+        price: R190
+      - name: Nude
+        price: R170
+      - name: Toes Full Colour
+        price: R150
+      - name: Toes French
+        price: R160
+      - name: Soak Off
+        price: R60
+      - name: Fillup
+        price: R120
+      - name: Fix
+        price: R20
+      - name: Nail Art
+        price: R5 to R20
+        per: nail
 
-- title: Treatments
-  items:
-    - name: Brow Tint
-      price: R50
-    - name: Lash Tint
-      price: R60
-    - name: Manicure
-      price: R180
-    - name: Pedicure
-      price: R180
-    - name: Add a Dip
-      price: R100
-    - name: Facial
-      price: R180
-    - name: Kids Spa
-      price: R120 to R180
-    - name: Back Exfoliating Scrub
-      price: R160
-- title: Massages
-  items:
-    - name: Massage
-      price: R200
-      per: 30 min
-    - name: Hand Massage
-      price: R200
-      per: 30 min
-    - name: Foot Massage
-      price: R200
-      per: 30 min
-    - name: Indian Head Massage
-      price: R200
-      per: 30 min
-- title: Waxing
-  items:
-    - name: Brow Wax
-      price: R50
-    - name: Lip Wax
-      price: R40
-    - name: Chin Wax
-      price: R40
-    - name: Full Face Wax
-      price: R120
-    - name: Arm Wax
-      price: R160
-    - name: Leg Wax
-      price: R180
-    - name: Under Arm Wax
-      price: R100
-    - name: Tummy Wax
-      price: R60
-    - name: Back Wax
-      price: R100
-    - name: Bikini
-      price: R100
-    - name: Brazilian Wax
-      price: R140
-    - name: Hollywood Wax
-      price: R180
+  - title: Treatments
+    items:
+      - name: Brow Tint
+        price: R50
+      - name: Lash Tint
+        price: R60
+      - name: Manicure
+        price: R180
+      - name: Pedicure
+        price: R180
+      - name: Add a Dip
+        price: R100
+      - name: Facial
+        price: R180
+      - name: Kids Spa
+        price: R120 to R180
+      - name: Back Exfoliating Scrub
+        price: R160
+  - title: Massages
+    items:
+      - name: Massage
+        price: R200
+        per: 30 min
+      - name: Hand Massage
+        price: R200
+        per: 30 min
+      - name: Foot Massage
+        price: R200
+        per: 30 min
+      - name: Indian Head Massage
+        price: R200
+        per: 30 min
+  - title: Waxing
+    items:
+      - name: Brow Wax
+        price: R50
+      - name: Lip Wax
+        price: R40
+      - name: Chin Wax
+        price: R40
+      - name: Full Face Wax
+        price: R120
+      - name: Arm Wax
+        price: R160
+      - name: Leg Wax
+        price: R180
+      - name: Under Arm Wax
+        price: R100
+      - name: Tummy Wax
+        price: R60
+      - name: Back Wax
+        price: R100
+      - name: Bikini
+        price: R100
+      - name: Brazilian Wax
+        price: R140
+      - name: Hollywood Wax
+        price: R180

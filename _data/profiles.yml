@@ -1,12 +1,15 @@
-- name: Candice
-  position: Owner
-  description: >-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Curabitur lobortis auctor commodo.Nullam nec nisl.
-  avatar: /assets/img/candice_avatar.png
-- name: Bullet
-  position: Trainee
-  description: >-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Curabitur lobortis auctor commodo.Nullam nec nisl.
-  avatar: /assets/img/bullet_avatar.png
+description: >-
+  We may not be able to solve all your problems, but we do promise that you will walk out
+  the salon with stunning nails and feeling relaxed.
+staff: 
+  - name: Candice
+    position: Owner
+    description: >-
+      I'm the owner of Wet Paint Nail Boutique and I've been doing nails for over 11 years.
+      I love every part of my job and enjoy every single day!
+      Seeing my client's faces light up when they walk out the salon with here great looking nails is priceless...
+    avatar: /assets/img/candice_avatar.png
+  - name: Bullet
+    position: Trainee
+    description: BORK!
+    avatar: /assets/img/bullet_avatar.png
