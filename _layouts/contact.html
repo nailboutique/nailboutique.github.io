@@ -23,7 +23,7 @@ banner_image: /assets/img/bg_2.jpg
                     </div>
                     <div class="col-md-12 mb-3">
                         <p><span class="mr-2"><i class="fas fa-envelope"></i></span> <a
-                                href="mailto:info@nailboutique.co.za?subject=Web Enquiry">info@nailboutique.co.za</a>
+                                href="mailto:{{ site.email }}?subject=Web Enquiry">{{ site.email }}</a>
                         </p>
                     </div>
                 </div>
@@ -60,17 +60,8 @@ banner_image: /assets/img/bg_2.jpg
     </div>
 </section>
 
-<div id="map"><iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.1057777883975!2d28.154257315567264!3d-25.800084153932442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9563099c194931%3A0xc38c648712b21222!2s67%20Aero%20Rd%2C%20Valhalla%2C%20Centurion%2C%200185%2C%20South%20Africa!5e0!3m2!1sen!2snz!4v1567676865185!5m2!1sen!2snz"
-        width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
-
-<!-- <script>
-    function initMap() {
-        var location = { lat: {{ site.address_lattitude }}, lng: {{ site.address_longitude }} };
-        var map = new google.maps.Map(
-            document.getElementById('map'), { zoom: 4, center: location });
-        var marker = new google.maps.Marker({ position: location, map: map });
-    }
-</script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps }}&callback=initMap"> -->
+<div id="map">
+    <iframe src="{{ site.google_map }}" width="100%" height="100%" frameborder="0" style="border:0;"
+        allowfullscreen=""></iframe>
+</div>
 </script>
