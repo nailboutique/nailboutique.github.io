@@ -1,6 +1,37 @@
-# Site settings
-title: Wet Paint
-subtitle: Nail Boutique
+# Enable the following GitHub Pages optional plugins
+plugins:
+  - jekyll-seo-tag
+
+# SEO
+title: Wet Paint Nail Boutique
+description: Wet Paint Nail Boutique is a beauty salon in Centurion that provides servics such as acrylic nails, nail art, massages and waxing.
+url: https://www.nailboutique.co.za
+author: NailBoutique
+
+twitter: 
+  username: NailBoutique
+
+facebook:
+  app_id:
+  publisher:
+  admins:
+
+social:
+  name: Wet Paint Nail Boutique
+  links:
+    - https://twitter.com/NailBoutique
+    - https://www.facebook.com/WetPaintNailBoutiqueSA
+    - https://www.linkedin.com/in/BenBalter
+    - https://instagram.com/wetpaint_nailboutique
+
+lang: en_ZA
+
+webmaster_verifications:
+  google: TJsTCd1TzIxqanT4nPCkUENAtu8Op7S4HTE1AgnLTUs
+  bing: 
+  alexa: 
+  yandex: 
+  baidu: 
 
 # contact details
 email: info@nailboutique.co.za
@@ -15,12 +46,11 @@ opening_hours:
     times: 8:00am - 12:00pm
 
 # Social
-twitter_username: NailBoutique
-facebook_username: WetPaintNailBoutiqueSA
-instagram_username: wetpaint_nailboutique
+facebook: WetPaintNailBoutiqueSA
+instagram: wetpaint_nailboutique
 
 # Google
-google_analytics: 
+google_analytics: UA-146448575-2
 google_map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.1057777883975!2d28.154257315567264!3d-25.800084153932442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9563099c194931%3A0xc38c648712b21222!2s67%20Aero%20Rd%2C%20Valhalla%2C%20Centurion%2C%200185%2C%20South%20Africa!5e0!3m2!1sen!2snz!4v1567676865185!5m2!1sen!2snz
 
 # Jumprock
