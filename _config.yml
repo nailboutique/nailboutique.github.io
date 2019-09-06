@@ -1,6 +1,7 @@
 # Enable the following GitHub Pages optional plugins
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # SEO
 title: Wet Paint Nail Boutique

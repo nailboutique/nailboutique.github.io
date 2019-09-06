@@ -1,5 +1,5 @@
 description: >-
-  Our prices will fit your pocket. Money cant buy you love but it can't
+  Our prices will fit your pocket. Money can't buy you love but it can
   buy you a nail appointment.
 lists:
   - title: Acrylic Nails
@@ -29,7 +29,6 @@ lists:
       - name: Nail Art
         price: R5 to R20
         per: nail
-
   - title: Treatments
     items:
       - name: Brow Tint
