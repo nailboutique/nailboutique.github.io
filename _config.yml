@@ -5,11 +5,10 @@ plugins:
 # SEO
 title: Wet Paint Nail Boutique
 description: Wet Paint Nail Boutique is a beauty salon in Centurion that provides servics such as acrylic nails, nail art, massages and waxing.
-url: https://www.nailboutique.co.za
+url: https://nailboutique.co.za
 author: NailBoutique
 
 logo: /assets/img/logo_1.png
-image: /assets/img/logo_1.png
 
 twitter: 
   username: NailBoutique
@@ -64,6 +63,13 @@ jumprock_alias: nailboutique
 about_us: >-
   We specialize in all kinds of nail arts. From free handpainting to 3D flowers and bows.
   Cash only salon. Bookings must be made ahead of time.
+
+# Front matter defults
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/logo_1.png
 
 # Build settings
 # sass:
